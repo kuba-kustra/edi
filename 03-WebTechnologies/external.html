@@ -3,13 +3,28 @@
 	<head>
 		<title>External script</title>
 		<meta charset="UTF-8">
+		<script src='js/date.js'></script>
 	</head>
 	<body>
 		<h1>External script</h1>
-		<!--
-			after clicking the button, display the current date in the popup window;
-			use an external script with a function
-		-->
+		
 		<button type="button">Display the current date</button>
 
+		<script type="text/javascript">
+			var button = document.getElementsByTagName('button')[0];
+
+			button.addEventListener('click' , function(){
+				d();
+			});
+		
+		
+		
+		
+		
+		
+		</script>
+
+
+
+		
 </html>

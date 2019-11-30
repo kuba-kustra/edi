@@ -9,6 +9,32 @@
 		<script>
 			var myArray = []
 
+			for(i=1; i<6; i++){
+				myArray.push(Math.round(Math.random() * 5))
+			
+			}
+
+			var ordered = true
+
+			for(i=0; i<myArray.length - 1; i++){
+				if(myArray[i] > myArray[i+1]){
+					ordered = false 
+					break;
+				}
+			}
+			
+
+
+
+
+
+			console.log(myArray)
+			console.log(ordered)
+			
+
+
+
+
 			// fill in the array with random values
 			// ...
 
