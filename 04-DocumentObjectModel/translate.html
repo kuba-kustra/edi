@@ -5,11 +5,23 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h3 onmouseover="textPL(this)">Sticks and stones may break my bones, but words will never harm me.</h3>
+		<h3 onmouseover="textPL(this)" onmouseout="textEN(this)">Sticks and stones may break my bones, but words will never harm me.</h3>
 		<script>
+			var x = true;
 			function textPL(element){
-				element.innerHTML = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią"
+				
+				x = !x;
+
+				
+				if(x){
+					element.innerHTML = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią"
+				}else{
+					element.innerHTML = "Sticks and stones may break my bones, but words will never harm me."
+
+				}
 			}
+			
+			
 		</script>
 	</body>
 </html>
