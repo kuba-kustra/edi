@@ -8,14 +8,17 @@
 		<h1>Try to guess</h1>
 
 		<script>
-			// read user's number (popup window)
-			
-			// create a random number
-			
-			// compare the numbers
-			
-			// show results (popup window)
-			
+			var un = prompt('dawaj liczbe: ');
+
+			var r = Math.round(Math.random() * 5);
+
+			if(un == r){
+				alert('Good Work')
+			}else{
+				alert('Sorry')
+			}
+
+			console.log(r)
 		</script>
 	</body>
 </html>
