@@ -1,5 +1,0 @@
-** Film youtube Restful
-** service api.nbp.pl (kursy walut i złota, json)
-** może inny serwis - sejm?
-** get and post, wyjaśnić, może film?
-** 
